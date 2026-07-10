@@ -93,7 +93,7 @@ python "Gamico Track/backend_process.py"
 
 ...or schedule it (cron, Task Scheduler, systemd timer, etc.) to run periodically for automatic monitoring.
 
-## Notes
+## Note
 - Steam pricing is fetched for the `in` (India) region by default; edit the `cc` param in `game_search.py` / `notification_manager.py` to change this.
 
 ## License
