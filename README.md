@@ -7,6 +7,10 @@ A lightweight desktop app that watches Steam game prices and emails you the mome
   <img src="https://img.shields.io/badge/GUI-CustomTkinter-00ADB5" alt="CustomTkinter">
   <img src="https://img.shields.io/badge/status-in%20development-yellow" alt="Status">
 </p>
+<p align="center">
+  <img width="623" height="657" alt="Screenshot" src="https://github.com/user-attachments/assets/2eacea8e-1a2a-41d1-85d4-d944d2bf74b5" />
+</p>
+
 
 ## What it does
 
@@ -95,6 +99,7 @@ python "Gamico Track/backend_process.py"
 
 ## Note
 - Steam pricing is fetched for the `in` (India) region by default; edit the `cc` param in `game_search.py` / `notification_manager.py` to change this.
+- (optional) Space mono font used for button
 
 ## License
 
