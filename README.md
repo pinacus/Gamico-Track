@@ -8,7 +8,7 @@ A lightweight desktop app that watches Steam game prices and emails you the mome
   <img src="https://img.shields.io/badge/status-in%20development-yellow" alt="Status">
 </p>
 <p align="center">
-  <img width="623" height="657" alt="Screenshot" src="https://github.com/user-attachments/assets/2eacea8e-1a2a-41d1-85d4-d944d2bf74b5" />
+  <img width="623" height="657" alt="Screenshot From 2026-07-10 22-08-23" src="https://github.com/user-attachments/assets/4e471a93-3262-4803-a900-b8eab7e92abb" />
 </p>
 
 
