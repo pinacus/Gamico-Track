@@ -1,0 +1,4 @@
+echo 
+.env
+__pycache__/
+sample.json
