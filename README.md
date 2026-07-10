@@ -99,7 +99,7 @@ python "Gamico Track/backend_process.py"
 
 ## Note
 - Steam pricing is fetched for the `in` (India) region by default; edit the `cc` param in `game_search.py` / `notification_manager.py` to change this.
-- (optional) Space mono font used for button
+- (optional) Space mono font used for buttons
 
 ## License
 
