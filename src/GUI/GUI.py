@@ -6,11 +6,11 @@ from word2number import w2n
 from datetime import date
 import json
 
-from Sheet.google_sheet import GoogleSheet
-from game_search import GameSearch
+from src.Sheet.google_sheet import GoogleSheet
+from src.game_search import GameSearch
 
-FILE_PATH = "GUI/data.json"
-IMG_PATH = "GUI/logo.png"
+FILE_PATH = "src/GUI/data.json"
+IMG_PATH = "assets/logo.png"
 
 customtkinter.set_appearance_mode("System")
 customtkinter.set_default_color_theme("blue")

@@ -1,4 +1,4 @@
-from GUI.GUI import GUI
+from src.GUI.GUI import GUI
 
 if __name__ == "__main__":
     app = GUI()

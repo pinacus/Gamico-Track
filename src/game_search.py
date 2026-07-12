@@ -9,7 +9,7 @@ class GameSearch:
         self.deal_price = ""
         self.steam_id = ""
 
-        with open("GUI/data.json", "r") as file:
+        with open("src/GUI/data.json", "r") as file:
             user_data = json.load(file)
 
         self.api_url = user_data.get("api url")
@@ -58,4 +58,3 @@ class GameSearch:
         game_data["current_price"] = self.deal_price
 
         return self.deal_price
-    

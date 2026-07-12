@@ -2,12 +2,12 @@ import smtplib
 import requests
 import json
 
-from Sheet.google_sheet import GoogleSheet
-from game_search import GameSearch
+from src.Sheet.google_sheet import GoogleSheet
+from src.game_search import GameSearch
 
 class NotificationManager:
     def __init__(self):
-        with open("GUI/data.json", "r") as file:
+        with open("src/GUI/data.json", "r") as file:
             user_data = json.load(file)
 
         self.from_email = user_data.get("app email")
