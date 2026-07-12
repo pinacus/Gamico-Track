@@ -94,7 +94,7 @@ Then fill in the main form with the game title, your email (where alerts go), an
 `notification_manager.py` pulls every row from your sheet, re-checks the Steam price, updates the sheet, and emails you for any game at or under target price. Run it manually:
 
 ```bash
-python "Gamico Track/backend_process.py"
+python "Gamico Track/src/backend_process.py"
 ```
 
 ...or schedule it (cron, Task Scheduler, systemd timer, etc.) to run periodically for automatic monitoring.
