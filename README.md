@@ -42,9 +42,9 @@ A lightweight desktop app that watches Steam game prices and emails you the mome
 
 ```
 Gamico Track/
-├── assets/
-    └── logo.png                  # App logo (click it to open config)
 ├── main.py                       # Entry point — launches the GUI
+├── assets/
+│    └── logo.png                 # App logo (click it to open config)
 ├── src/
     ├── notification_manager.py   # Re-checks prices for all saved games, sends email alerts
     ├── backend_process.py        # Standalone runner for notification_manager (for scheduling)
@@ -53,7 +53,7 @@ Gamico Track/
     │   ├── GUI.py                # Main window + config popup
     │   ├── data.json             # Local config (email, Sheety URL, Gmail app credentials)
     └── Sheet/
-      └── google_sheet.py         # Sheety API wrapper (GET / POST / PUT)
+        └── google_sheet.py         # Sheety API wrapper (GET / POST / PUT)
 ```
 
 ## Setup
